@@ -1,0 +1,22 @@
+dif:video_dif
+rmt.qta-mux-ps 1.cumux 2:1:100:1000,1000,0:50,50,0
+rmt.qta-mux-ps 2.cumux 2:1:100:1000,1000,0:50,50,0
+rmt.qta-mux-ps 3.cumux 2:1:100:1000,1000,0:750,750,0
+rmt.qta-mux-ps 1.qosid 1:1:250000:1000000000
+rmt.qta-mux-ps 2.qosid 1:2:250000:1000000000
+rmt.qta-mux-ps 3.qosid 2:1:250000:1000000000
+rmt.qta-mux-ps 4.qosid 2:2:250000:1000000000
+rmt.qta-mux-ps 5.qosid 3:1:250000:1000000000
+rmt.qta-mux-ps 6.qosid 3:2:250000:1000000000
+dif:spn_dif
+rmt.qta-mux-ps 1.cumux 2:1:100:1000,1000,0:50,50,0
+rmt.qta-mux-ps 2.cumux 2:1:100:1000,1000,0:50,50,0
+rmt.qta-mux-ps 3.cumux 2:1:100:1000,1000,0:750,750,0
+rmt.qta-mux-ps 1.qosid 1:1:250000:1000000000
+rmt.qta-mux-ps 2.qosid 1:2:250000:1000000000
+rmt.qta-mux-ps 3.qosid 2:1:250000:1000000000
+rmt.qta-mux-ps 4.qosid 2:2:250000:1000000000
+rmt.qta-mux-ps 5.qosid 3:1:250000:1000000000
+rmt.qta-mux-ps 6.qosid 3:2:250000:1000000000
+dif:mr_dif
+rmt.default q_max 2000 
